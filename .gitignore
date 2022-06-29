@@ -1,0 +1,5 @@
+# Ignore the contents of the repocat folder. 
+Cty3D_RepoCat\Context_Groundplan_JPG\*
+Cty3D_RepoCat\tiled_gis\*
+Cty3D_RepoCat\CityWide\*
+Cty3D_RepoCat\Bos3d_TerrainMesh_2011_OBJ\*

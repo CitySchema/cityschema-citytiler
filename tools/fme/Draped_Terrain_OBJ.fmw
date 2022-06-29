@@ -1,0 +1,2078 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        "C:\Program Files\FME_2020\fme.exe" F:\current_work\projects\metro_3d\citySchema-cityTiler\tools\fme\Draped_Terrain_OBJ.fmw
+#              --Tile_Name "BOS_H_3"
+#              --tiled_datasets_folder "F:\current_work\projects\metro_3d\citySchema-cityTiler\Cty3D_RepoCat"
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="4273.57 1934.69"
+#!   DOC_TOP_LEFT="-22.4387 -1065.37"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="20817"
+#!   FME_DOCUMENT_GUID="4f9234f9-30b9-4ede-9c10-233560fea6d2"
+#!   FME_DOCUMENT_PRIORGUID="2726b6f3-c6f2-4de4-b936-a9529022b107,19e10f08-5145-4618-938a-7fee3ffbbd29,2a91cddc-3218-4b13-84d1-50b5ae0f6a98,c25b7bee-7915-4fb5-a441-610fe386f307,6f1ed060-a3dc-4146-b800-02034d22a563,b73fde3d-9684-4280-a8ad-b21c7f8258aa,8b4b035d-bad9-4ff5-9dc3-f5b4f9d20404,fe5fb18f-d011-49ca-a96b-c41b9fe6fdb1,644ae33b-62d6-4ca7-ba8a-a8eeb0c66d63,6d6835e8-88d6-41b3-8974-945864cd2a94,6d1cd422-3e08-4469-ba63-2c4abecc722e,0fa27715-1ff7-40f0-9fbd-a147bb851b78,420ba9a7-3731-43fc-9f22-db484cac1d26,4cc19357-da35-47ee-8789-71d28d30def3"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2020.2.2.0 (20210111 - Build 20817 - WIN64)"
+#!   LAST_SAVE_DATE="2022-06-29T04:13:39"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="NO"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-192.903 906.645"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="81"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="JPEG"
+#!   DATASET="$(SourceDataset_JPEG)"
+#!   KEYWORD="JPEG_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type char(50) jpeg_exif_maxaperturevalue char(255) fme_geometry char(50) jpeg_exif_customrendered decimal(5,0) jpeg_exif_software char(255) jpeg_exif_gaincontrol decimal(5,0) jpeg_exif_relatedsoundfile char(13) fme_type char(50) jpeg_exif_gpslongitude char(255) fme_basename char(50) jpeg_exif_standardoutputsensitivity largeint fme_dataset char(50) jpeg_exif_bodyserialnumber char(255) jpeg_exif_resolutionunit decimal(5,0) jpeg_exif_offsettime char(7) jpeg_exif_gpstrack char(255) jpeg_exif_meteringmode decimal(5,0) jpeg_exif_offsettimedigitized char(7) fme_text_size float jpeg_exif_pixelydimension decimal(12,0) jpeg_exif_cameraownername char(255) jpeg_exif_digitalzoomratio char(255) jpeg_exif_gpsdestbearing char(255) jpeg_exif_scenecapturetype decimal(5,0) jpeg_exif_gpsdestlatitude char(255) fme_rotation float jpeg_exif_cfa_repeat_pattern_dim char(255) jpeg_exif_sensitivitytype decimal(5,0) fme_text_string char(50) jpeg_exif_xptitle char(255) jpeg_exif_lensspecification char(255) jpeg_exif_ycbcrpositioning decimal(5,0) jpeg_exif_gpsaltituderef char(255) jpeg_exif_contrast decimal(5,0) jpeg_exif_subsectime_original char(255) jpeg_exif_gpsdop char(255) jpeg_exif_gpsmeasuremode char(1) jpeg_exif_imagedescription char(255) jpeg_exif_whitepoint char(255) jpeg_exif_interoperability_index char(255) jpeg_exif_datetimeoriginal char(20) jpeg_exif_isospeedlatitudeyyy largeint jpeg_exif_gpsdestlatituderef char(1) jpeg_exif_xpkeywords char(255) jpeg_exif_xresolution char(255) jpeg_exif_gpstimestamp char(255) jpeg_exif_make char(255) jpeg_exif_gpstrackref char(1) jpeg_exif_isospeedlatitudezzz largeint jpeg_exif_lensserialnumber char(255) jpeg_exif_gpsmapdatum char(255) jpeg_exif_flash decimal(5,0) jpeg_exif_subsectime_digitized char(255) jpeg_exif_whitebalance decimal(5,0) jpeg_exif_gpslatituderef char(1) jpeg_exif_lensmake char(255) multi_reader_keyword char(50) jpeg_exif_focallength char(255) jpeg_exif_exifversion char(4) jpeg_exif_xpcomment char(255) jpeg_exif_gpsspeedref char(1) multi_reader_type char(50) jpeg_exif_transferfunction char(7680) jpeg_exif_pixelxdimension decimal(12,0) fme_start_angle float jpeg_exif_makernote char(255) jpeg_exif_shutterspeedvalue char(255) multi_reader_full_id integer jpeg_exif_isospeedratings decimal(5,0) jpeg_exif_offsettimeoriginal char(7) jpeg_exif_iptc_naa char(255) jpeg_exif_gpshpositioningerror float fme_sweep_angle float jpeg_exif_xpsubject char(255) jpeg_exif_xpauthor char(255) jpeg_exif_recommendedexposureindex largeint jpeg_exif_aperturevalue char(255) jpeg_exif_filesource char(255) jpeg_exif_fnumber char(255) jpeg_exif_gpsdestdistance char(255) jpeg_exif_gpsimgdirection char(255) jpeg_exif_ycbcrcoefficients char(255) jpeg_exif_exposuretime char(255) jpeg_exif_exposuremode decimal(5,0) fme_secondary_axis float jpeg_exif_exposureprogram decimal(5,0) jpeg_exif_copyright char(255) jpeg_exif_subjectlocation char(255) jpeg_exif_gpslongituderef char(1) jpeg_exif_flashpixversion char(255) jpeg_exif_primarychromaticities char(255) jpeg_exif_gpsdestbearingref char(1) jpeg_exif_gpssatellites char(255) jpeg_exif_gpsversionid char(255) multi_reader_id integer jpeg_exif_interoperability_version char(255) jpeg_exif_yresolution char(255) jpeg_exif_spatialfrequencyresponse char(255) jpeg_exif_colorspace decimal(5,0) jpeg_exif_gpsareainformation char(255) jpeg_exif_gpsaltitude char(255) fme_primary_axis float jpeg_exif_exposureindex float jpeg_exif_related_image_width char(255) jpeg_exif_usercomment char(255) jpeg_exif_imageuniqueid char(33) jpeg_exif_sharpness decimal(5,0) jpeg_exif_componentsconfiguration char(255) jpeg_exif_focalplaneyresolution char(255) jpeg_exif_compressedbitsperpixel char(255) jpeg_exif_gpsdatestamp char(10) jpeg_exif_referenceblackwhite char(255) jpeg_exif_datetime char(20) jpeg_exif_related_image_file_format char(255) jpeg_exif_cfa_pattern char(255) jpeg_type char(255) jpeg_exif_subsectime char(255) jpeg_exif_datetimedigitized char(20) jpeg_exif_focalplanexresolution char(255) jpeg_exif_subjectarea char(255) jpeg_exif_gpsimgdirectionref char(1) jpeg_exif_exposurebiasvalue char(255) jpeg_exif_gpsdestdistanceref char(1) jpeg_exif_gpsdifferential decimal(5,0) jpeg_exif_brightnessvalue float jpeg_exif_focallengthin35mmfilm decimal(5,0) jpeg_exif_scenetype char(255) jpeg_exif_lensmodel char(255) jpeg_exif_subjectdistance float jpeg_exif_gpsstatus char(1) fme_color char(50) jpeg_exif_subjectdistancerange decimal(5,0) jpeg_exif_isospeed largeint fme_fill_color char(50) jpeg_exif_saturation decimal(5,0) jpeg_exif_related_image_length char(255) jpeg_exif_gpslatitude char(255) jpeg_exif_cfapattern char(255) jpeg_exif_sensingmethod decimal(5,0) jpeg_exif_focalplaneresolutionunit decimal(5,0) jpeg_exif_devicesettingdescription char(255) jpeg_exif_lightsource decimal(5,0) jpeg_exif_orientation decimal(5,0) jpeg_exif_gpsspeed char(255) jpeg_exif_spectralsensitivity char(255) jpeg_exif_model char(255) jpeg_exif_inter_color_profile char(255) jpeg_exif_gpsprocessingmethod char(255) jpeg_exif_gpsdestlongitude char(255) jpeg_exif_oecf char(255) jpeg_exif_artist char(255) jpeg_exif_gpsdestlongituderef char(1)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="19817"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="AUTO_FANOUT_ATTRIBUTE"
+#!   VALUE="fme_basename"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="jpg file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Raster1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Raster File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="image/JPEG"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_AUTO_EXPOSE"
+#!   VALUE="fme_basename char(50)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the JPEG file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the JPEG file(s)"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="SHAPEFILE"
+#!   DATASET="$(SourceDataset_SHAPEFILE_3)"
+#!   KEYWORD="SHAPEFILE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type char(50) fme_color char(50) fme_type char(50) multi_reader_full_id long fme_geometry char(50) fme_text_string char(50) multi_reader_keyword char(50) shape_geometry_error char(254) multi_reader_type char(50) fme_sweep_angle double fme_start_angle double fme_primary_axis double fme_basename char(50) fme_secondary_axis double fme_fill_color char(50) fme_text_size double fme_rotation double fme_dataset char(50) multi_reader_id long shapefile_type char(30)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="20817"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="SHAPEFILE_IN_ENCODING"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shapefile_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="OBJ"
+#!   DATASET="$(DestDataset_OBJ)"
+#!   KEYWORD="OBJ_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="200"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="false"
+#!   EXPOSABLE_ATTRS="fme_primary_axis string fme_text_size string fme_type string fme_basename string fme_feature_type string fme_rotation string fme_dataset string fme_sweep_angle string fme_text_string string fme_start_angle string fme_secondary_axis string obj_type string fme_fill_color string fme_color string fme_geometry string"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="19817"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="OBJ_OUT_WRITE_FME_VERSION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="obj file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="File1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="OBJ File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the OBJ file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the OBJ file"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="decimal(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="decimal(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="JPEG"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OBJ"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jpeg_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jpeg_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jpeg_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jpeg_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="JPEG"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_multipatch"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_multipatch"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_null"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_first_feature"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_feature_table"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_null"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shapefile_first_feature"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SHAPEFILE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="OBJ"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="JPEG"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="9"
+#!   FEAT_GEOMTYPE="jpeg_raster"
+#!   POSITION="1405.8787126717857 314.5846563011084"
+#!   BOUNDING_RECT="1405.8787126717857 314.5846563011084 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="JPEG_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="tin_triangles"
+#!   FEATURE_TYPE_NAME="$(Tile_Name)_Terrain_2011"
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="14"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="3797.1349309452676 27.883046540947376"
+#!   BOUNDING_RECT="3797.1349309452676 27.883046540947376 454 71"
+#!   ORDER="500000000000006"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="TinTriangle"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="28"
+#!   FEAT_GEOMTYPE="shapefile_polygon"
+#!   POSITION="-22.438695991898186 -80.67746912037012"
+#!   BOUNDING_RECT="-22.438695991898186 -80.67746912037012 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="SHAPEFILE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Slope_Pct" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Aspect" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Tri_Index" ATTR_TYPE="long" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET
+#!   NAME="JPEG_1"
+#!   OVERRIDE="-JPEG_1_DATASET"
+#!   DATASET="JPEG_1/BOS_H_3_Context_Groundplan.jpg"
+#! />
+#! <DATASET
+#!   NAME="SHAPEFILE_1"
+#!   OVERRIDE="-SHAPEFILE_1_DATASET"
+#!   DATASET="SHAPEFILE_1/TinTriangle.shp"
+#! />
+#! </READER_DATASETS>
+#! <WRITER_DATASETS>
+#! <DATASET
+#!   NAME="OBJ_1"
+#!   OVERRIDE="-OBJ_1_DATASET"
+#!   DATASET="OBJ_1/BOS_H_3_Terrain_2011_OBJ.zip"
+#! />
+#! </WRITER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT Tile_Name Tile_Name:"
+#!   DEFAULT_VALUE="BOS_H_3"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME_SRC tiled_datasets_folder tiled_datasets_folder:"
+#!   DEFAULT_VALUE="F:\current_work\projects\metro_3d\citySchema-cityTiler\Cty3D_RepoCat"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL MULTIFILE SourceDataset_JPEG JPEG_Files(*.jpg;*.jpeg;*.jpe;*.jif;*.jfif;*.jfi)|*.jpg;*.jpeg;*.jpe;*.jif;*.jfif;*.jfi|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source JPEG File(s):"
+#!   DEFAULT_VALUE="$(tiled_datasets_folder)\Context_Groundplan_JPG\$(Tile_Name)_Context_Groundplan.jpg"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL DIRNAME DestDataset_OBJ Destination OBJ Folder:"
+#!   DEFAULT_VALUE="$(tiled_datasets_folder)\Bos3d_TerrainMesh_2011_OBJ\$(Tile_Name)_Terrain_2011_OBJ.zip"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL MULTIFILE SourceDataset_SHAPEFILE_3 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="$(tiled_datasets_folder)\tiled_gis\$(Tile_Name)_GIS\terrain\TinTriangle.shp"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="11"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13pt;&quot;&gt;Drape the Basemap&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2003.7674105375513 329.47570806131409"
+#!   TOP_LEFT="2003.7674105375513 329.47570806131409"
+#!   BOTTOM_RIGHT="2538.1472543359891 208.84980180225151"
+#!   BOUNDING_RECT="2003.7674105375513 329.47570806131409 534.37984379843795 120.62590625906259"
+#!   ORDER="500000000000000"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="8"
+#!   ANCHORED_NODE="10"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="18"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Our OBJs have Z up and Y forward.  This is not the default for OBJs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3056.6167343439793 430.03106258335288"
+#!   TOP_LEFT="3056.6167343439793 430.03106258335288"
+#!   BOTTOM_RIGHT="3876.0208028567381 196.90403131304018"
+#!   BOUNDING_RECT="3056.6167343439793 430.03106258335288 819.40406851275884 233.1270312703127"
+#!   ORDER="500000000000011"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="24"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This offset converts Mass State Plane Feet to our Boston Shifted coordinate systemm &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3398.6288348966527 -251.00460446908389"
+#!   TOP_LEFT="3398.6288348966527 -251.00460446908389"
+#!   BOTTOM_RIGHT="4200.9872784077079 -484.13163573939659"
+#!   BOUNDING_RECT="3398.6288348966527 -251.00460446908389 802.35844351105516 233.1270312703127"
+#!   ORDER="500000000000012"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="25"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Converts polygons to faces that can become4 part of a mesh and accept textures. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="384.47354170511409 756.6854166587998"
+#!   TOP_LEFT="384.47354170511409 756.6854166587998"
+#!   BOTTOM_RIGHT="1080.9821374728899 523.55838538848707"
+#!   BOUNDING_RECT="384.47354170511409 756.6854166587998 696.50859576777589 233.1270312703127"
+#!   ORDER="500000000000013"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="26"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Merges the faces into a single mesh object&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="97.644074083838177 -708.86980514690424"
+#!   TOP_LEFT="97.644074083838177 -708.86980514690424"
+#!   BOTTOM_RIGHT="641.75856778559341 -941.99683641721697"
+#!   BOUNDING_RECT="97.644074083838177 -708.86980514690424 544.11449370175524 233.1270312703127"
+#!   ORDER="500000000000014"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="5"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="27"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;This workbench takes TIN triangles that have been created in ArcGIS and converts them to an FME mesh.  It drapes a pre-cliped groundplan image and then converts to an OBJ that has bee properly rotated and shifted to sit well with theother datasets in the metropolian area model collection. Maybe one day, the FME TIN creator wil work as well as the ESRI one.  Last time I checked, it created incorrect fences along the edges of tiles. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="116.59187500965919 869.32687508693255"
+#!   TOP_LEFT="116.59187500965919 869.32687508693255"
+#!   BOTTOM_RIGHT="4096.6318754096619 501.82350005318222"
+#!   BOUNDING_RECT="116.59187500965919 869.32687508693255 3980.0400004000026 367.50337503375033"
+#!   ORDER="500000000000015"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="23"
+#!   NAME="OBJ Rotation and offset"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="2677.0679843110242 120.65184379116513"
+#!   ORDER="500000000000010"
+#!   PALETTE_COLOR="Color2"
+#!   BOTTOM_RIGHT="3330.5608028021916 -518.27625003522758"
+#!   BOUNDING_RECT="2677.0679843110242 120.65184379116513 653.49281849116733 638.92809382639268"
+#!   STICKY="true"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,1"
+#!   CONTENTS="17 21 19 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="FaceReplacer"
+#!   VERSION="1"
+#!   POSITION="627.58815971998081 267.32253087962988"
+#!   BOUNDING_RECT="627.58815971998081 267.32253087962988 454 71"
+#!   ORDER="500000000000003"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ANGULAR_TOLERANCE" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="ANGULAR_TOLERANCE_CHOICE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THICKNESS_TOLERANCE" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="THICKNESS_TOLERANCE_CHOICE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FaceReplacer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="5"
+#!   TYPE="Aggregator"
+#!   VERSION="15"
+#!   POSITION="1380.2589583471581 176.65184379116513"
+#!   BOUNDING_RECT="1380.2589583471581 176.65184379116513 454 71"
+#!   ORDER="500000000000004"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19817"
+#! >
+#!     <OUTPUT_FEAT NAME="AGGREGATE"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
+#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="Homogeneous Collection (If Possible)"/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CYCLE_ID_ERROR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Geometry - Assemble One Level"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="10"
+#!   TYPE="AppearanceSetter"
+#!   VERSION="2"
+#!   POSITION="2003.7674105375513 72.223520539438937"
+#!   BOUNDING_RECT="2003.7674105375513 72.223520539438937 431 71"
+#!   ORDER="500000000000000"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="HOLDER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <OUTPUT_FEAT NAME="UNMATCHED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="ALPHA" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AMBIENT_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEARANCE_NAME" PARM_VALUE="$(Tile_Name)_Basemap_2011"/>
+#!     <XFORM_PARM PARM_NAME="COLOR_PARAMETER_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="DEF_STORAGE" PARM_VALUE="Create New Definitions"/>
+#!     <XFORM_PARM PARM_NAME="DIFFUSE_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EMISSIVE_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GQUERY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_TRAIT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SET_ON_SIDE" PARM_VALUE="Front and Back Sides"/>
+#!     <XFORM_PARM PARM_NAME="SHININESS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SPECULAR_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_APPLICATIONPARAMETER_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_BORDER_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_CENTER_U" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_CENTER_V" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_MAPPING_TYPE_CHOICE" PARM_VALUE="From Top View"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_PARAMETER_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_ROTATION_ANGLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_U_OFFSET" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_U_OFFSET2" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_U_SCALE_FACTOR" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_U_SCALING_FACTOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_U_SHEARING_FACTOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_V_OFFSET" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_V_OFFSET2" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_V_SCALE_FACTOR" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_V_SCALING_FACTOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_V_SHEARING_FACTOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTURE_WRAP_DISPLAY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USE_EXISTING_TEXTURE_COORDINATES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AppearanceSetter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="3DRotator"
+#!   VERSION="0"
+#!   POSITION="2765.0679843110242 -251.00460446908389"
+#!   BOUNDING_RECT="2765.0679843110242 -251.00460446908389 454 71"
+#!   ORDER="500000000000008"
+#!   PARMS_EDITED="true"
+#!   ENABLED="false"
+#!   LAST_PARM_EDIT="19817"
+#! >
+#!     <OUTPUT_FEAT NAME="ROTATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ANGLE" PARM_VALUE="-90"/>
+#!     <XFORM_PARM PARM_NAME="AXIS_CHOICE" PARM_VALUE="X Axis"/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_AXIS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XDIR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="3DRotator"/>
+#!     <XFORM_PARM PARM_NAME="XORIG" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="YDIR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="YORIG" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ZDIR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ZORIG" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="19"
+#!   TYPE="Offsetter"
+#!   VERSION="1"
+#!   POSITION="2765.0679843110242 10.651843791165135"
+#!   BOUNDING_RECT="2765.0679843110242 10.651843791165135 454 71"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OFFSET"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="AZIMUTH_2D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AZIMUTH_3D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CARTESIAN_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ELEVATION_3D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Cartesian Coordinate"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POLAR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RADIUS_2D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RADIUS_3D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SPHERICAL_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Offsetter"/>
+#!     <XFORM_PARM PARM_NAME="XOFF" PARM_VALUE="-731100"/>
+#!     <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="-2902900"/>
+#!     <XFORM_PARM PARM_NAME="ZOFF" PARM_VALUE="0"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="30"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="1088.4140084722956 -994.36648727421925"
+#!   BOUNDING_RECT="1088.4140084722956 -994.36648727421925 595.00106825772946 71"
+#!   ORDER="500000000000017"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FaceReplacer__Rejected_"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="2395.2965000259769 -708.86980514690424"
+#!   BOUNDING_RECT="2395.2965000259769 -708.86980514690424 597.00106825772946 71"
+#!   ORDER="500000000000018"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AppearanceSetter_Output"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="35"
+#!   TYPE="GeometryCoercer"
+#!   VERSION="6"
+#!   POSITION="1239.9819919761837 -567.16343937954298"
+#!   BOUNDING_RECT="1239.9819919761837 -567.16343937954298 454 71"
+#!   ORDER="500000000000019"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="COERCED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNTOUCHED"/>
+#!     <XFORM_ATTR ATTR_NAME="Slope_Pct" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Aspect" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tri_Index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GQUERY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="fme_mesh"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryCoercer"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="32"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 APPEARANCE"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="28"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="36"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="35"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="37"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
+#!   TARGET_PORT_DESC="fi 1 GEOMETRY"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="20"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="34"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 0 OFFSET"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 OFFSET"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="39"
+#!   SOURCE_NODE="35"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 0 COERCED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;REJECTED&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 37
+GUI IGNORE SourceDataset_JPEG_1,JPEG_IN_APPLY_EXIF_ORIENTATION_JPEG_1,JPEG_IN_APPLY_GCPS_JPEG_1,JPEG_IN_GCP_INTERPOLATION_METHOD_JPEG_1,JPEG_IN_USE_SEARCH_ENVELOPE_JPEG_1,JPEG_IN_SEARCH_ENVELOPE_MINX_JPEG_1,JPEG_IN_SEARCH_ENVELOPE_MINY_JPEG_1,JPEG_IN_SEARCH_ENVELOPE_MAXX_JPEG_1,JPEG_IN_SEARCH_ENVELOPE_MAXY_JPEG_1,JPEG_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_JPEG_1,JPEG_IN_CLIP_TO_ENVELOPE_JPEG_1,JPEG_IN_NETWORK_AUTHENTICATION_JPEG_1,SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1,DestDataset_OBJ_1,OBJ_OUT_FME_GROUP_NAMED1_OBJ_1,OBJ_OUT_MOVE_TO_LOCAL_COORDSYS_OBJ_1,OBJ_OUT_FME_GROUP_NAMED2_OBJ_1,OBJ_OUT_REVERSE_FACE_ORDER_OBJ_1,OBJ_OUT_TRIANGULATE_FACES_OBJ_1,OBJ_OUT_WRITE_POINTS_AND_LINES_OBJ_1,OBJ_OUT_WRITE_MESH_VERTEX_COLORS_OBJ_1,OBJ_OUT_MATERIAL_LIB_OBJ_1,OBJ_OUT_MATERIAL_LIB_LINKAGE_OBJ_1,OBJ_OUT_FME_GROUP_NAMED3_OBJ_1,OBJ_OUT_TEXTURE_OUTPUT_FORMAT_OBJ_1,OBJ_OUT_OBJ_WRT_ADV_PARM_GROUP_OBJ_1,OBJ_OUT_WRITE_FME_VERSION_OBJ_1
+DEFAULT_MACRO Tile_Name BOS_H_3
+GUI TEXT Tile_Name Tile_Name:
+DEFAULT_MACRO tiled_datasets_folder F:\current_work\projects\metro_3d\citySchema-cityTiler\Cty3D_RepoCat
+GUI DIRNAME_SRC tiled_datasets_folder tiled_datasets_folder:
+DEFAULT_MACRO SourceDataset_JPEG $(tiled_datasets_folder)\Context_Groundplan_JPG\$(Tile_Name)_Context_Groundplan.jpg
+GUI IGNORE OPTIONAL MULTIFILE SourceDataset_JPEG JPEG_Files(*.jpg;*.jpeg;*.jpe;*.jif;*.jfif;*.jfi)|*.jpg;*.jpeg;*.jpe;*.jif;*.jfif;*.jfi|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source JPEG File(s):
+DEFAULT_MACRO DestDataset_OBJ $(tiled_datasets_folder)\Bos3d_TerrainMesh_2011_OBJ\$(Tile_Name)_Terrain_2011_OBJ.zip
+GUI IGNORE OPTIONAL DIRNAME DestDataset_OBJ Destination OBJ Folder:
+DEFAULT_MACRO SourceDataset_SHAPEFILE_3 $(tiled_datasets_folder)\tiled_gis\$(Tile_Name)_GIS\terrain\TinTriangle.shp
+GUI IGNORE OPTIONAL MULTIFILE SourceDataset_SHAPEFILE_3 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+INCLUDE [ if {{$(Tile_Name)} == {}} { puts_real {Parameter 'Tile_Name' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(tiled_datasets_folder)} == {}} { puts_real {Parameter 'tiled_datasets_folder' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} JPEG
+MULTI_READER_KEYWORD{0} JPEG_1
+MULTI_READER_GEN_DIRECTIVES{0} SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MINX,0,READER_META_ATTRIBUTES,fme_dataset<space>fme_basename,JPEG_EXPOSE_FORMAT_ATTRS,,GCP_INTERPOLATION_METHOD,NearestNeighbor,SEARCH_ENVELOPE_MAXX,0,USE_SEARCH_ENVELOPE,NO,APPLY_EXIF_ORIENTATION,Yes,APPLY_GCPS,NO,ALL_ATTRS_STARTING_WITH_EXIF_ARE_FORMAT_ATTRS,YES,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,GROUP_BY_DATASET,No,EXPOSE_ATTRS_GROUP,
+MULTI_READER_TYPE{1} SHAPEFILE
+MULTI_READER_KEYWORD{1} SHAPEFILE_1
+MULTI_READER_GEN_DIRECTIVES{1} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,DONUT_DETECTION,ORIENTATION,SEARCH_ENVELOPE_MAXY,0,ADVANCED,,SEARCH_ENVELOPE_MINY,0,_MERGE_SCHEMAS,YES,USE_SEARCH_ENVELOPE,NO,MEASURES_AS_Z,No,CLIP_TO_ENVELOPE,NO,READ_BLANK_AS,MISSING,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,REPORT_BAD_GEOMETRY,No,SEARCH_ENVELOPE_MAXX,0,TRIM_PRECEDING_SPACES,Yes,EXPOSE_ATTRS_GROUP,,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} OBJ
+MULTI_WRITER_KEYWORD{0} OBJ_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "JPEG_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER JPEG JPEG_1
+# =======================================================================
+# The following GUI line prompts for a file to be used as the source JPEG file.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be read.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_JPEG_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER JPEG JPEG_1
+DEFAULT_MACRO SourceDataset_JPEG_1 $(SourceDataset_JPEG)
+GUI MULTIFILE SourceDataset_JPEG_1 JPEG_Files(*.jpg;*.jpeg;*.jpe;*.jif;*.jfif;*.jfi)|*.jpg;*.jpeg;*.jpe;*.jif;*.jfif;*.jfi|All_Files(*)|* Source JPEG File(s):
+DEFAULT_MACRO JPEG_IN_READER_META_ATTRIBUTES_JPEG_1 fme_dataset fme_basename
+JPEG_1_READER_META_ATTRIBUTES "$(JPEG_IN_READER_META_ATTRIBUTES_JPEG_1)"
+DEFAULT_MACRO JPEG_IN_GROUP_BY_DATASET_JPEG_1 No
+JPEG_1_GROUP_BY_DATASET "$(JPEG_IN_GROUP_BY_DATASET_JPEG_1)"
+DEFAULT_MACRO JPEG_IN_APPLY_EXIF_ORIENTATION_JPEG_1 Yes
+JPEG_1_APPLY_EXIF_ORIENTATION "$(JPEG_IN_APPLY_EXIF_ORIENTATION_JPEG_1)"
+GUI CHOICE JPEG_IN_APPLY_EXIF_ORIENTATION_JPEG_1 Yes%No Apply EXIF Orientation:
+DEFAULT_MACRO JPEG_IN_APPLY_GCPS_JPEG_1 NO
+JPEG_1_APPLY_GCPS "$(JPEG_IN_APPLY_GCPS_JPEG_1)"
+GUI ACTIVEDISCLOSUREGROUP JPEG_IN_APPLY_GCPS_JPEG_1 JPEG_IN_GCP_INTERPOLATION_METHOD_JPEG_1 Apply GCP's
+DEFAULT_MACRO JPEG_IN_GCP_INTERPOLATION_METHOD_JPEG_1 NearestNeighbor
+JPEG_1_GCP_INTERPOLATION_METHOD "$(JPEG_IN_GCP_INTERPOLATION_METHOD_JPEG_1)"
+GUI LOOKUP_CHOICE JPEG_IN_GCP_INTERPOLATION_METHOD_JPEG_1 Nearest<space>Neighbor,NearestNeighbor%Bilinear,Bilinear%Bicubic,Bicubic GCP Interpolation Method
+GUI LOOKUP JPEG_IN_GCP_INTERPOLATION_METHOD_JPEG_1 <Unused>,NearestNeighbor 
+DEFAULT_MACRO JPEG_IN_EXPOSE_ATTRS_GROUP_JPEG_1 
+JPEG_1_EXPOSE_ATTRS_GROUP "$(JPEG_IN_EXPOSE_ATTRS_GROUP_JPEG_1)"
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO JPEG_IN_USE_SEARCH_ENVELOPE_JPEG_1 NO
+JPEG_1_USE_SEARCH_ENVELOPE "$(JPEG_IN_USE_SEARCH_ENVELOPE_JPEG_1)"
+GUI ACTIVEDISCLOSUREGROUP JPEG_IN_USE_SEARCH_ENVELOPE_JPEG_1 JPEG_IN_SEARCH_ENVELOPE_MINX_JPEG_1%JPEG_IN_SEARCH_ENVELOPE_MINY_JPEG_1%JPEG_IN_SEARCH_ENVELOPE_MAXX_JPEG_1%JPEG_IN_SEARCH_ENVELOPE_MAXY_JPEG_1%JPEG_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_JPEG_1%JPEG_IN_CLIP_TO_ENVELOPE_JPEG_1%JPEG_IN_SEARCH_METHOD%JPEG_IN_SEARCH_METHOD_FILTER%JPEG_IN_SEARCH_ORDER%JPEG_IN_SEARCH_FEATURE%JPEG_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP JPEG_IN_SEARCH_ENVELOPE_MINX_JPEG_1 <Unused>,0 
+DEFAULT_MACRO JPEG_IN_SEARCH_ENVELOPE_MINX_JPEG_1 0
+JPEG_1_SEARCH_ENVELOPE "$(JPEG_IN_SEARCH_ENVELOPE_MINX_JPEG_1)"
+GUI OPTIONAL FLOAT JPEG_IN_SEARCH_ENVELOPE_MINX_JPEG_1 Minimum X:
+# ===========================================================================
+GUI LOOKUP JPEG_IN_SEARCH_ENVELOPE_MINY_JPEG_1 <Unused>,0 
+DEFAULT_MACRO JPEG_IN_SEARCH_ENVELOPE_MINY_JPEG_1 0
+JPEG_1_SEARCH_ENVELOPE "$(JPEG_IN_SEARCH_ENVELOPE_MINY_JPEG_1)"
+GUI OPTIONAL FLOAT JPEG_IN_SEARCH_ENVELOPE_MINY_JPEG_1 Minimum Y:
+# ===========================================================================
+GUI LOOKUP JPEG_IN_SEARCH_ENVELOPE_MAXX_JPEG_1 <Unused>,0 
+DEFAULT_MACRO JPEG_IN_SEARCH_ENVELOPE_MAXX_JPEG_1 0
+JPEG_1_SEARCH_ENVELOPE "$(JPEG_IN_SEARCH_ENVELOPE_MAXX_JPEG_1)"
+GUI OPTIONAL FLOAT JPEG_IN_SEARCH_ENVELOPE_MAXX_JPEG_1 Maximum X:
+# ===========================================================================
+GUI LOOKUP JPEG_IN_SEARCH_ENVELOPE_MAXY_JPEG_1 <Unused>,0 
+DEFAULT_MACRO JPEG_IN_SEARCH_ENVELOPE_MAXY_JPEG_1 0
+JPEG_1_SEARCH_ENVELOPE "$(JPEG_IN_SEARCH_ENVELOPE_MAXY_JPEG_1)"
+GUI OPTIONAL FLOAT JPEG_IN_SEARCH_ENVELOPE_MAXY_JPEG_1 Maximum Y:
+# ===========================================================================
+GUI LOOKUP JPEG_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_JPEG_1 <Unused>, 
+DEFAULT_MACRO JPEG_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_JPEG_1 
+JPEG_1_SEARCH_ENVELOPE "$(JPEG_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_JPEG_1)"
+GUI OPTIONAL COORDSYS JPEG_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_JPEG_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+GUI LOOKUP JPEG_IN_CLIP_TO_ENVELOPE_JPEG_1 <Unused>,NO 
+DEFAULT_MACRO JPEG_IN_CLIP_TO_ENVELOPE_JPEG_1 NO
+JPEG_1_CLIP_TO_ENVELOPE "$(JPEG_IN_CLIP_TO_ENVELOPE_JPEG_1)"
+GUI OPTIONAL CHECKBOX JPEG_IN_CLIP_TO_ENVELOPE_JPEG_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO JPEG_IN_ALL_ATTRS_STARTING_WITH_EXIF_ARE_FORMAT_ATTRS_JPEG_1 YES
+JPEG_1_ALL_ATTRS_STARTING_WITH_EXIF_ARE_FORMAT_ATTRS "$(JPEG_IN_ALL_ATTRS_STARTING_WITH_EXIF_ARE_FORMAT_ATTRS_JPEG_1)"
+# ===========================================================================
+DEFAULT_MACRO JPEG_IN_NETWORK_AUTHENTICATION_JPEG_1 
+JPEG_1_NETWORK_AUTHENTICATION "$(JPEG_IN_NETWORK_AUTHENTICATION_JPEG_1)"
+GUI OPTIONAL AUTHENTICATOR JPEG_IN_NETWORK_AUTHENTICATION_JPEG_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO JPEG_IN_ATTRIBUTE_READING_JPEG_1 ALL
+JPEG_1_ATTRIBUTE_READING "$(JPEG_IN_ATTRIBUTE_READING_JPEG_1)"
+# ============================================================================ 
+JPEG_1_GENERATE_FME_BUILD_NUM 19817
+JPEG_1_DATASET "$(SourceDataset_JPEG_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "SHAPEFILE_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_1
+# ============================================================================
+# The following GUI line prompts for the source shapefiles
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_SHAPEFILE_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_1
+DEFAULT_MACRO SourceDataset_SHAPEFILE_1 $(SourceDataset_SHAPEFILE_3)
+GUI MULTIFILE SourceDataset_SHAPEFILE_1 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1 SHAPEFILE_IN_ENCODING_SHAPEFILE_1%SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for reading the shapefile, overrides dbf file LDID or .cpg
+# file if present.
+DEFAULT_MACRO SHAPEFILE_IN_ENCODING_SHAPEFILE_1 fme-source-encoding
+SHAPEFILE_1_ENCODING "$(SHAPEFILE_IN_ENCODING_SHAPEFILE_1)"
+GUI STRING_OR_ENCODING SHAPEFILE_IN_ENCODING_SHAPEFILE_1 fme-source-encoding%UTF-8%ISO*%Big5%ibm*%Shift_JIS%GB2312%GBK%win*%KSC_5601%macintosh%x-mac* Character Encoding
+# ============================================================================
+# Determines whether numeric attributes should be interpreted as binary or as
+# bound number fields (ActualDBFrepresentation)
+DEFAULT_MACRO SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_1 STANDARD_TYPES
+SHAPEFILE_1_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_1)"
+#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
+DEFAULT_MACRO SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_1 
+SHAPEFILE_1_EXPOSE_ATTRS_GROUP "$(SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_1)"
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1 NO
+SHAPEFILE_1_USE_SEARCH_ENVELOPE "$(SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1)"
+GUI ACTIVEDISCLOSUREGROUP SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1 SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1%SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1%SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1%SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1%SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1%SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1%SHAPEFILE_IN_SEARCH_METHOD%SHAPEFILE_IN_SEARCH_METHOD_FILTER%SHAPEFILE_IN_SEARCH_ORDER%SHAPEFILE_IN_SEARCH_FEATURE%SHAPEFILE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1 0
+SHAPEFILE_1_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1 Minimum X:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1 0
+SHAPEFILE_1_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1 Minimum Y:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1 0
+SHAPEFILE_1_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1 Maximum X:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1 0
+SHAPEFILE_1_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1 Maximum Y:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1 <Unused>, 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1 
+SHAPEFILE_1_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1)"
+GUI OPTIONAL COORDSYS SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1 Search Envelope Coordinate System:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1 <Unused>,NO 
+DEFAULT_MACRO SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1 NO
+SHAPEFILE_1_CLIP_TO_ENVELOPE "$(SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1)"
+GUI OPTIONAL CHECKBOX SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO SHAPEFILE_IN_ADVANCED_SHAPEFILE_1 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_ADVANCED_SHAPEFILE_1 SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1%SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1%SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1%SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1%SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1 Advanced
+DEFAULT_MACRO SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1 Yes
+SHAPEFILE_1_TRIM_PRECEDING_SPACES "$(SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1)"
+GUI CHOICE SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1 Yes%No Trim Preceding Spaces
+DEFAULT_MACRO SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1 MISSING
+SHAPEFILE_1_READ_BLANK_AS "$(SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1)"
+GUI LOOKUP_CHOICE SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1 Missing,MISSING%Null,NULL Read Blank Fields as:
+# ============================================================================
+# Option to use simple donut geometry creation, which is faster than the
+# original creation method, but less meticulous at detecting and correcting
+# geometric anomalies (i.e.holeswithinholes)
+DEFAULT_MACRO SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1 ORIENTATION
+SHAPEFILE_1_DONUT_DETECTION "$(SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1)"
+GUI LOOKUP_CHOICE SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1 "\"Orientation Only\",ORIENTATION"%"\"Orientation and Spatial Relationship\",SPATIAL" Donut Geometry Detection
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1 No
+SHAPEFILE_1_MEASURES_AS_Z "$(SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1)"
+GUI CHOICE SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1 Yes%No Treat Measures as Elevation
+# ============================================================================
+# The following keyword sets whether bad geometry should be reported via
+# the shape_geometry_errors attribute.
+DEFAULT_MACRO SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1 No
+SHAPEFILE_1_REPORT_BAD_GEOMETRY "$(SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1)"
+GUI CHOICE SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1 Yes%No Report Geometry Anomalies
+# ===========================================================================
+DEFAULT_MACRO SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1 
+SHAPEFILE_1_NETWORK_AUTHENTICATION "$(SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1)"
+GUI OPTIONAL AUTHENTICATOR SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_1 ALL
+SHAPEFILE_1_ATTRIBUTE_READING "$(SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_1)"
+# ============================================================================ 
+SHAPEFILE_1_GENERATE_FME_BUILD_NUM 20817
+SHAPEFILE_1_DATASET "$(SourceDataset_SHAPEFILE_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "OBJ_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER OBJ OBJ_1
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_OBJ_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER OBJ OBJ_1
+DEFAULT_MACRO DestDataset_OBJ_1 $(DestDataset_OBJ)
+GUI DIRNAME DestDataset_OBJ_1 Destination OBJ Folder:
+DEFAULT_MACRO OBJ_OUT_FME_GROUP_NAMED1_OBJ_1 
+GUI OPTIONAL DISCLOSUREGROUP OBJ_OUT_FME_GROUP_NAMED1_OBJ_1 OBJ_OUT_MOVE_TO_LOCAL_COORDSYS_OBJ_1 Coordinate System
+DEFAULT_MACRO OBJ_OUT_MOVE_TO_LOCAL_COORDSYS_OBJ_1 No
+OBJ_1_MOVE_TO_LOCAL_COORDSYS "$(OBJ_OUT_MOVE_TO_LOCAL_COORDSYS_OBJ_1)"
+GUI LOOKUP_CHOICE OBJ_OUT_MOVE_TO_LOCAL_COORDSYS_OBJ_1 Yes,Yes%No,No%"\"Create Projection File Only\",PRJ_ONLY"%"\"Transform Coordinates Only\",COORDINATES_ONLY" Move to Local Coordinate System:
+DEFAULT_MACRO OBJ_OUT_FME_GROUP_NAMED2_OBJ_1 
+GUI OPTIONAL DISCLOSUREGROUP OBJ_OUT_FME_GROUP_NAMED2_OBJ_1 OBJ_OUT_REVERSE_FACE_ORDER_OBJ_1%OBJ_OUT_TRIANGULATE_FACES_OBJ_1%OBJ_OUT_WRITE_POINTS_AND_LINES_OBJ_1%OBJ_OUT_WRITE_MESH_VERTEX_COLORS_OBJ_1 Feature Handling
+DEFAULT_MACRO OBJ_OUT_REVERSE_FACE_ORDER_OBJ_1 No
+OBJ_1_REVERSE_FACE_ORDER "$(OBJ_OUT_REVERSE_FACE_ORDER_OBJ_1)"
+GUI CHOICE OBJ_OUT_REVERSE_FACE_ORDER_OBJ_1 Yes%No Reverse Face Order:
+DEFAULT_MACRO OBJ_OUT_TRIANGULATE_FACES_OBJ_1 Yes
+OBJ_1_TRIANGULATE_FACES "$(OBJ_OUT_TRIANGULATE_FACES_OBJ_1)"
+GUI CHOICE OBJ_OUT_TRIANGULATE_FACES_OBJ_1 Yes%No Triangulate Faces:
+DEFAULT_MACRO OBJ_OUT_WRITE_POINTS_AND_LINES_OBJ_1 No
+OBJ_1_WRITE_POINTS_AND_LINES "$(OBJ_OUT_WRITE_POINTS_AND_LINES_OBJ_1)"
+GUI CHOICE OBJ_OUT_WRITE_POINTS_AND_LINES_OBJ_1 Yes%No Write Points and Lines:
+DEFAULT_MACRO OBJ_OUT_WRITE_MESH_VERTEX_COLORS_OBJ_1 Yes
+OBJ_1_WRITE_MESH_VERTEX_COLORS "$(OBJ_OUT_WRITE_MESH_VERTEX_COLORS_OBJ_1)"
+GUI CHOICE OBJ_OUT_WRITE_MESH_VERTEX_COLORS_OBJ_1 Yes%No Write Mesh Vertex Colors:
+DEFAULT_MACRO OBJ_OUT_MATERIAL_LIB_OBJ_1 
+OBJ_1_MATERIAL_LIB "$(OBJ_OUT_MATERIAL_LIB_OBJ_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST OBJ_OUT_MATERIAL_LIB_OBJ_1 Material_Library_File(*.mtl)|*.mtl|All_files(*)|* Material Library File:
+GUI LOOKUP OBJ_OUT_MATERIAL_LIB_OBJ_1 <Unused>, 
+DEFAULT_MACRO OBJ_OUT_MATERIAL_LIB_LINKAGE_OBJ_1 Relative
+OBJ_1_MATERIAL_LIB_LINKAGE "$(OBJ_OUT_MATERIAL_LIB_LINKAGE_OBJ_1)"
+GUI CHOICE OBJ_OUT_MATERIAL_LIB_LINKAGE_OBJ_1 Relative%Absolute%Copy Material Library Linkage:
+GUI LOOKUP OBJ_OUT_MATERIAL_LIB_LINKAGE_OBJ_1 <Unused>,Relative 
+DEFAULT_MACRO OBJ_OUT_FME_GROUP_NAMED3_OBJ_1 
+GUI OPTIONAL DISCLOSUREGROUP OBJ_OUT_FME_GROUP_NAMED3_OBJ_1 OBJ_OUT_TEXTURE_OUTPUT_FORMAT_OBJ_1 Textures
+DEFAULT_MACRO OBJ_OUT_TEXTURE_OUTPUT_FORMAT_OBJ_1 NONE
+OBJ_1_TEXTURE_OUTPUT_FORMAT "$(OBJ_OUT_TEXTURE_OUTPUT_FORMAT_OBJ_1)"
+GUI LOOKUP_CHOICE OBJ_OUT_TEXTURE_OUTPUT_FORMAT_OBJ_1 Auto,NONE%PNG,PNGRASTER%JPEG%GIF,GIFRASTER%BMP%XPM%TIFF Preferred Texture Format:
+DEFAULT_MACRO OBJ_OUT_OBJ_WRT_ADV_PARM_GROUP_OBJ_1 
+GUI OPTIONAL DISCLOSUREGROUP OBJ_OUT_OBJ_WRT_ADV_PARM_GROUP_OBJ_1 OBJ_OUT_WRITE_FME_VERSION_OBJ_1 Advanced
+DEFAULT_MACRO OBJ_OUT_WRITE_FME_VERSION_OBJ_1 Yes
+OBJ_1_WRITE_FME_VERSION "$(OBJ_OUT_WRITE_FME_VERSION_OBJ_1)"
+GUI CHOICE OBJ_OUT_WRITE_FME_VERSION_OBJ_1 Yes%No Write FME Version to OBJ File Header:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO OBJ_OUT_DESTINATION_DATASETTYPE_VALIDATION_OBJ_1 Yes
+OBJ_1_DESTINATION_DATASETTYPE_VALIDATION "$(OBJ_OUT_DESTINATION_DATASETTYPE_VALIDATION_OBJ_1)"
+# ============================================================================ 
+OBJ_1_GENERATE_FME_BUILD_NUM 19817
+OBJ_1_DATASET "$(DestDataset_OBJ_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Draped_Terrain_OBJ.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+DEFAULT_MACRO DATASET_KEYWORD_JPEG_1 JPEG_1
+DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_1 SHAPEFILE_1
+DEFAULT_MACRO DATASET_KEYWORD_OBJ_1 OBJ_1
+# -------------------------------------------------------------------------
+
+JPEG_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
+
+# -------------------------------------------------------------------------
+
+SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Draped_Terrain_OBJ
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
+# -------------------------------------------------------------------------
+JPEG_1_DEF JPEG
+# -------------------------------------------------------------------------
+SHAPEFILE_1_DEF TinTriangle   shapefile_type               shapefile_polygon   Slope_Pct                    double   Aspect                       double   Tri_Index                    long
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE JPEG JPEG_1::JPEG multi_reader_keyword,$(DATASET_KEYWORD_JPEG_1) TO FME_GENERIC ::JPEG ALIAS_GEOMETRY    ROUTE SHAPEFILE SHAPEFILE_1::TinTriangle multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_1) TO FME_GENERIC ::TinTriangle ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+JPEG_1_MERGE_DEF JPEG_1::JPEG EXACT JPEG
+SHAPEFILE_1_MERGE_DEF SHAPEFILE_1::TinTriangle EXACT TinTriangle
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "JPEG_JPEG_1 Splitter"    INPUT FEATURE_TYPE JPEG    OUTPUT FEATURE_TYPE JPEG_JPEG_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "TinTriangle_SHAPEFILE_1 Splitter"    INPUT FEATURE_TYPE TinTriangle    OUTPUT FEATURE_TYPE TinTriangle_SHAPEFILE_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+INCLUDE [          if { {AUTO} == {CUSTOM} } {             puts {MACRO THICKNESS_TOLERANCE " 0.0"};          }          elseif { {AUTO} == {IGNORE} } {             puts {MACRO THICKNESS_TOLERANCE " -2"};          }          else {             puts {MACRO THICKNESS_TOLERANCE " -1"};          };          if { {AUTO} == {CUSTOM} } {             puts {MACRO ANGULAR_TOLERANCE " 0.0"};          }          elseif { {AUTO} == {IGNORE} } {             puts {MACRO ANGULAR_TOLERANCE " -2"};          }          else {             puts {MACRO ANGULAR_TOLERANCE " -1"};          };          ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME FaceReplacer_FaceCreator    INPUT  FEATURE_TYPE TinTriangle_SHAPEFILE_1    OUTPUT FEATURE_TYPE ___TOREJECTOR___          @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)          @GeometryType(fme_face, $(THICKNESS_TOLERANCE), $(ANGULAR_TOLERANCE))
+FACTORY_DEF * TestFactory    FACTORY_NAME FaceReplacer_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE FaceReplacer_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE FaceReplacer_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+# -------------------------------------------------------------------------
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {FaceReplacer__Rejected_} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME FaceReplacer__Rejected__Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FaceReplacer_<REJECTED>    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { FaceReplacer__Rejected_ }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF * RecorderFactory    FACTORY_NAME FaceReplacer__Rejected__Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA Slope_Pct,real64,Aspect,real64,Tri_Index,int32,fme_rejection_code,buffer    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+# -------------------------------------------------------------------------
+FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryCoercer    INPUT  FEATURE_TYPE FaceReplacer_OUTPUT    GQUERY "@EvaluateExpression(FDIV,STRING_ENCODED,for<space><dollar>geom<space>in<space><solidus><solidus>geometry<lf>where<space><dollar>geom<solidus>count<openparen>parent::geometry<closeparen><space>=<space>0<lf>return<space>number<openparen><dollar>geom<solidus><at>fme_id<closeparen>,GeometryCoercer)"    ACTION COERCE_GEOMETRY    PARAMETER fme_mesh BASENAME GeometryCoercer    OUTPUT RESULT FEATURE_TYPE GeometryCoercer_COERCED
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE GeometryCoercer_COERCED    MODE ONE_LEVEL    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    SEPARATOR <comma>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
+# -------------------------------------------------------------------------
+INCLUDE [          set listOrSingle {@Value(___myNewAppearance)};          puts "MACRO LIST_OR_SINGLE $listOrSingle";          ]
+INCLUDE [if { ("BOTH" == "BOTH") } {              puts "MACRO APPEARANCE_IDS $(LIST_OR_SINGLE) $(LIST_OR_SINGLE)";          } elseif { ("BOTH" == "FRONT") } {              puts "MACRO APPEARANCE_IDS $(LIST_OR_SINGLE) fme_do_not_set";          } else {              puts "MACRO APPEARANCE_IDS fme_do_not_set $(LIST_OR_SINGLE)";          }          ]
+FACTORY_DEF * SortFactory    FACTORY_NAME AppearanceSetter_HOLDER    INPUT FEATURE_TYPE AppearanceSetter__DUMMY__
+FACTORY_DEF * CreationFactory    FACTORY_NAME AppearanceSetter_ColorStyle_Creator    CREATE_AT_END NO    OUTPUT FEATURE_TYPE AppearanceSetter_____CREATED_COLORSTYLE______
+FACTORY_DEF * TeeFactory    FACTORY_NAME AppearanceSetter_Apply_ColorStyle    INPUT FEATURE_TYPE AppearanceSetter_____CREATED_COLORSTYLE______    OUTPUT FEATURE_TYPE AppearanceSetter_____OVERWRITE_APPEARANCE______       fme_appearance_style_name "$(Tile_Name)_Basemap_2011"       fme_appearance_style_diffuse_color ""       fme_appearance_style_ambient_color ""       fme_appearance_style_specular_color ""       fme_appearance_style_emissive_color ""       fme_appearance_style_alpha ""       fme_appearance_style_shininess ""       fme_texture_style_u_offset ""       fme_texture_style_v_offset ""       fme_texture_style_center_u ""       fme_texture_style_center_v ""       fme_texture_style_u_scaling_factor ""       fme_texture_style_v_scaling_factor ""       fme_texture_style_u_shearing_factor ""       fme_texture_style_v_shearing_factor ""       fme_texture_style_rotation_angle ""       __fme_temp_overwrite_appearance_info yes
+# We're going to say "front side" here, as all we want is the attribute back.
+FACTORY_DEF {*} SharedObjectFactory    FACTORY_NAME AppearanceSetter_AddRefs    INPUT DEFINITION_FRONT FEATURE_TYPE AppearanceSetter_____OVERWRITE_APPEARANCE______    INPUT DEFINITION_FRONT FEATURE_TYPE JPEG_JPEG_1    INPUT REFERENCER FEATURE_TYPE Aggregator_AGGREGATE    MODE ADD    SHARED_OBJECT_TYPE APPEARANCE    ADD_AS_ATTR_FRONT ___myNewAppearance    RECURSIVE NO    OUTPUT INVALID_GEOMETRY FEATURE_TYPE AppearanceSetter_OUTPUT    OUTPUT SUCCESSFUL FEATURE_TYPE AppearanceSetter___touOriginOffsetRejector___
+FACTORY_DEF * TestFactory    FACTORY_NAME AppearanceSetter_uOriginOffsetRejector    INPUT FEATURE_TYPE AppearanceSetter___touOriginOffsetRejector___    TEST "0.0" TYPE NUM ENCODED    OUTPUT PASSED FEATURE_TYPE AppearanceSetter___tovOriginOffsetRejector___
+FACTORY_DEF * TestFactory    FACTORY_NAME AppearanceSetter_vOriginOffsetRejector    INPUT FEATURE_TYPE AppearanceSetter___tovOriginOffsetRejector___    TEST "0.0" TYPE NUM ENCODED    OUTPUT PASSED FEATURE_TYPE AppearanceSetter___toTextureuRepeatFactorRejector___
+FACTORY_DEF * TestFactory    FACTORY_NAME AppearanceSetter__textureuRepeatFactorRejector__    INPUT FEATURE_TYPE AppearanceSetter___toTextureuRepeatFactorRejector___    TEST "1.0" TYPE NUM ENCODED    OUTPUT PASSED FEATURE_TYPE AppearanceSetter___toTexturevRepeatFactorRejector___
+FACTORY_DEF * TestFactory    FACTORY_NAME AppearanceSetter__texturevRepeatFactorRejector__    INPUT FEATURE_TYPE AppearanceSetter___toTexturevRepeatFactorRejector___    TEST "1.0" TYPE NUM ENCODED    OUTPUT PASSED FEATURE_TYPE AppearanceSetter___TaggedGeoms___
+FACTORY_DEF * GQueryFactory    FACTORY_NAME AppearanceSetter_GQuery    INPUT FEATURE_TYPE AppearanceSetter___TaggedGeoms___    GQUERY "@EvaluateExpression(FDIV,STRING_ENCODED,for<space><dollar>geom<space>in<space><solidus><solidus>geometry<lf>where<space><dollar>geom<solidus>count<openparen>parent::geometry<closeparen><space>=<space>0<lf>return<space>number<openparen><dollar>geom<solidus><at>fme_id<closeparen>,AppearanceSetter)"    ROUTE_UNMATCHED_FEATURES YES    ACTION SET_APPEARANCE    PARAMETER $(APPEARANCE_IDS) NO XY_PLANE "1.0" "1.0" "0.0" "0.0" No CREATE    OUTPUT RESULT FEATURE_TYPE AppearanceSetter_OUTPUT       @RemoveAttributes(fme_regexp_match,^___myNewAppearance.*$)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AppearanceSetter OUTPUT Splitter"   INPUT FEATURE_TYPE AppearanceSetter_OUTPUT   OUTPUT FEATURE_TYPE AppearanceSetter_OUTPUT_0_ymWgJcuEqrQ=   OUTPUT FEATURE_TYPE AppearanceSetter_OUTPUT_1_G2YKOgFYuFY=
+# -------------------------------------------------------------------------
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AppearanceSetter_Output} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AppearanceSetter_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AppearanceSetter_OUTPUT_1_G2YKOgFYuFY=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AppearanceSetter_Output }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF * RecorderFactory    FACTORY_NAME AppearanceSetter_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA Slope_Pct,real64,Aspect,real64,Tri_Index,int32    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+# -------------------------------------------------------------------------
+INCLUDE [    if { {CARTESIAN} == {CARTESIAN} } {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"-731100","-2902900","0")};    } elseif { {CARTESIAN} == {POLAR} } {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"CARTESIAN","<Unused>","<Unused>")};    } elseif { {CARTESIAN} == {SPHERICAL} } {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"CARTESIAN","<Unused>","<Unused>","<Unused>")};    } else {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"-731100","-2902900","0")};    } ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Offsetter_OffsetterInput    INPUT  FEATURE_TYPE AppearanceSetter_OUTPUT_0_ymWgJcuEqrQ=    OUTPUT FEATURE_TYPE ___TOOFFSETTER___
+FACTORY_DEF * TeeFactory    FACTORY_NAME Offsetter_Offsetter    INPUT FEATURE_TYPE ___TOOFFSETTER___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___       $(Offsetter_OFFSET)
+FACTORY_DEF * TestFactory    FACTORY_NAME Offsetter_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE Offsetter_Offset       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+FACTORY_DEF * TestFactory    FACTORY_NAME Offsetter_PointCloudOffsetter    INPUT FEATURE_TYPE Offsetter_Offset    TEST &fme_type == "fme_point_cloud"    TEST "" != ""    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Offsetter_OFFSET       @TransformPointCloud(OFFSET,)    OUTPUT FAILED FEATURE_TYPE Offsetter_OFFSET
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Offsetter OFFSET Splitter"   INPUT FEATURE_TYPE Offsetter_OFFSET   OUTPUT FEATURE_TYPE Offsetter_OFFSET_0_W5NRx4Ntgk0=   OUTPUT FEATURE_TYPE Offsetter_OFFSET_1_wI9Izqc5xFA=
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "3DRotator (Disabled) Nuker"   INPUT FEATURE_TYPE Offsetter_OFFSET_0_W5NRx4Ntgk0=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Offsetter_OFFSET_1_wI9Izqc5xFA= TO OBJ __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>tin_triangles<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>$(Tile_Name$encode$encode)_Terrain_2011<comma>tin_triangles<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
+FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
+# -------------------------------------------------------------------------
+OBJ_1_DEF tin_triangles

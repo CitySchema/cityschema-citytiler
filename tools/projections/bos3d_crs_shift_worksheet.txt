@@ -1,0 +1,77 @@
+
+Tile Origin in MAss state plane feet.  
+X: 732,200 , Y: 2,902,900
+
+Offsets for data being translated form MASP Ft:
+X -732,200  Y-2,902,900
+
+Tile Grid Dimensions:
+5000 x 5000   X: 17 Tiles Y: 15 tiles 
+
+TileGrid NE Corner (masp)
+817200  2977900
+
+Mass State Plane Offsets
+False Easting: 656166.66666667
+False Northing: 2460625
+
+Bos3D_MSP_Shift
+False Easting: -76033.33333333
+False Northing: -442,275.0000000
+
+
+Version3
+
+Tile Origin in MAss state plane feet.  
+X: 731,500 , Y: 2,902,900
+
+Opposite Corner:
+X: 816,500  Y: 2,977,900
+
+Offsets for data being translated form MASP Ft:
+X -731,500  Y-2,902,900
+
+Mass State Plane 
+False Easting: 656166.66666667
+False Northing: 2460625
+
+Bos3D_MSP_Shift
+False Easting: -75,333.33333333
+False Northing: -442,275.0000000
+
+
+Version4
+
+Tile Origin in MAss state plane feet.  
+X: 731,100 , Y: 2,902,900
+
+Tile Set Dimension
+Tiles:  X 17  Y 15
+Feet: X: 85,000 Y 75,000
+
+
+Opposite Corner (MASP): 
+X: 816,100  Y: 2,977,900
+
+Offsets for data being translated form MASP Ft:
+X -731,100  Y-2,902,900
+
+Mass State Plane 
+False Easting: 656166.66666667
+False Northing: 2460625
+
+Bos3D_MSP_Shift
+False Easting: -74,933.33333333
+False Northing: -442,275.0000000
+
+
+
+UTM Shift 
+UTM Cordinates oforigin
+X: 316475.93     Y: 4675860.06 
+
+Original False Northing: 0
+Original False Easting: 500,000
+
+Shift False Northing: -4675860.06
+Shift False Easting: 183524.07

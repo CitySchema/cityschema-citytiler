@@ -1,0 +1,6 @@
+# Ignore the contents of the repocat folder. 
+
+Context_Groundplan_JPG\*
+tiled_gis\*
+CityWide\*
+Bos3d_TerrainMesh_2011_OBJ\*
